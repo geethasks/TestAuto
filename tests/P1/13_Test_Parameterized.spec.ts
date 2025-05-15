@@ -22,7 +22,6 @@ for (const eachSearchItem of searchList) {
 
         await expect(page).toHaveTitle(eachSearchItem + ' - Yahoo Search Results')
        
-
     })
 
 }
